@@ -7,14 +7,17 @@
     <title>Aprendendo js</title>
 </head>
 
-<body>
+<body onmouseup="clicouTela2()" onmousedown="clicouTela()">
     <h1>Aprendendo JavaScript</h1>
     <p id="texto"></p>
     <p id="texto2"></p>
     <p id="texto3"></p>
     <p id="texto4"></p>
     <br>
-    <button onclick=ola()>Olá</button>
+    <button onclick="eventoClick()">Dark mode</button>
+    <button ondblclick="eventodblClick()">light mode</button>
+    <br>
+    <div id="teste" onmousemove="AdicionarTexto()" onmouseout="viraAzul()" onmouseover="viraVerde()" style="width:80%; height: 200px; background:blue;"></div>
 
 
 
@@ -23,6 +26,7 @@
     <script src="/Fundamentos/variaveis.js"></script>
     <script src="/Fundamentos/funçoes.js"></script>
     <script src="/Fundamentos/objetos.js"></script>
+    <script src="/Fundamentos/eventos.js"></script>
 </body>
 
 </html>
