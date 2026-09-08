@@ -12,7 +12,7 @@ Tipos de eventos:
 
 
 
-onblur -> Disparado  quando o elemento perde foco
+
 onkeydown -> Disparado quando uma tecla é pressionada
 onkeypress -> Disparado quando ua tecla é pressionada e solta
 onkeyup ->  Disparado quando uma tecla é solta sobre um elemento
@@ -65,4 +65,9 @@ function Embranco() {
 //onchange -> Disparado quando existe mudança no conteúdo
 function mudou() {
     console.log("mudou");
+};
+
+//onblur -> Disparado  quando o elemento perde foco
+function desfoque() {
+    console.log("desfocado");
 };

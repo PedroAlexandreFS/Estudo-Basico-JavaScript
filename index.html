@@ -20,7 +20,7 @@
     <div id="teste" onmousemove="AdicionarTexto()" onmouseout="viraAzul()" onmouseover="viraVerde()"
         style="width:80%; height: 200px; background:blue;"></div>
 
-     <input onfocus="Embranco()" type="text" id="input" style="padding:80px; font-size: 40px;" placeholder="Digite alguma coisa" value="oi como vai">
+     <input onblur="desfoque()" onfocus="Embranco()" type="text" id="input" style="padding:80px; font-size: 40px;" placeholder="Digite alguma coisa" value="oi como vai">
 
      <select onchange="mudou()">
         <option value="1"> valor 1</option>
