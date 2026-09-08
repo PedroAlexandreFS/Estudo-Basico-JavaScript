@@ -10,8 +10,8 @@ Tipos de eventos:
 
 
 
-onfocus -> Disparado quando o elemento recebe o fooco.válido para input
-onchange -> Disparado quando existe mudança no conteúdo
+
+
 onblur -> Disparado  quando o elemento perde foco
 onkeydown -> Disparado quando uma tecla é pressionada
 onkeypress -> Disparado quando ua tecla é pressionada e solta
@@ -54,4 +54,15 @@ function clicouTela() {
 //onmouseup -> Disparado quando o clique do botão é liberado
 function clicouTela2() {
     alert("clicou na tela 2");
+};
+
+//onfocus -> Disparado quando o elemento recebe o fooco.válido para input
+function Embranco() {
+    document.getElementById("input").value = "";
+};
+
+
+//onchange -> Disparado quando existe mudança no conteúdo
+function mudou() {
+    console.log("mudou");
 };
