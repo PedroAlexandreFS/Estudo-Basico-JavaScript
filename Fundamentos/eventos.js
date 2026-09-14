@@ -47,14 +47,14 @@ function AdicionarTexto() {
 };
 
 //onmousedown -> Disparado quando o click do butão foi presionado
-function clicouTela() {
+/*function clicouTela() {
     alert("clicou na tela");
-};
+};*/
 
 //onmouseup -> Disparado quando o clique do botão é liberado
-function clicouTela2() {
+/*function clicouTela2() {
     alert("clicou na tela 2");
-};
+};*/
 
 //onfocus -> Disparado quando o elemento recebe o fooco.válido para input
 function Embranco() {

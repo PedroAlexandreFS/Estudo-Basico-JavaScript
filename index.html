@@ -21,14 +21,18 @@
     <div id="teste" onmousemove="AdicionarTexto()" onmouseout="viraAzul()" onmouseover="viraVerde()"
         style="width:80%; height: 200px; background:blue;"></div>
 
-     <input onblur="desfoque()" onfocus="Embranco()" type="text" id="input" style="padding:80px; font-size: 40px;" placeholder="Digite alguma coisa" value="oi como vai">
+    <input onblur="desfoque()" onfocus="Embranco()" type="text" id="input" style="padding:80px; font-size: 40px;"
+        placeholder="Digite alguma coisa" value="oi como vai">
 
-     <select onchange="mudou()">
+    <select onchange="mudou()">
         <option value="1"> valor 1</option>
         <option value="2"> valor 2</option>
         <option value="3"> valor 3</option>
         <option value="4"> valor 4</option>
-     </select>
+    </select>
+    <p id="texto6"></p>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <button onclick="verificar()">Verificar</button>
 
 
 
@@ -38,6 +42,7 @@
     <script src="/Fundamentos/funçoes.js"></script>
     <script src="/Fundamentos/objetos.js"></script>
     <script src="/Fundamentos/eventos.js"></script>
+    <script src="/Fundamentos/ifelse.js"></script>
 </body>
 
 </html>
