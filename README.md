@@ -9,3 +9,4 @@ FUNDAMENTOS:
 * `arrays.js`: aprendendos os arrays/matrizes e como usar com varios metodos.
 * `ifelse.js`: apredendo como uar  o if e else no js.
 * `switch.js`: apredendo a usar o switch no js.
+* `lacorepetiçaoFor.js`: apredendo o laço de repetição for.
