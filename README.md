@@ -10,3 +10,4 @@ FUNDAMENTOS:
 * `ifelse.js`: apredendo como uar  o if e else no js.
 * `switch.js`: apredendo a usar o switch no js.
 * `lacorepetiçaoFor.js`: apredendo o laço de repetição for.
+*  `EventosTempo.js`: apredendo a usar o setTimeout e o cleaTimeout assim como o setInterval e o clearInterval.

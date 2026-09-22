@@ -7,7 +7,7 @@
     <title>Aprendendo js</title>
 </head>
 
-<body onmouseup="clicouTela2()" onmousedown="clicouTela()">
+<body style="text-align: center;" onmouseup="clicouTela2()" onmousedown="clicouTela()">
     <h1>Aprendendo JavaScript</h1>
     <p id="texto"></p>
     <p id="texto2"></p>
@@ -40,6 +40,12 @@
       <select id="ano">
         <option selected disabled>selecione o ano</option>
       </select>
+      <br>
+      <br>
+      <h1>Controle de tempo</h1>
+      <h2 id="tempo">0</h2>
+      <button onclick="AtivaContagem()" style="background-color: green; padding:30px; color: white;">Ativar Contagem</button>
+      <button onclick="ParaContagem()" style="background-color:red; padding:30px;color: white;">Parar Contagem</button>
 
 
 
@@ -52,6 +58,7 @@
     <script src="Fundamentos/ifelse.js"></script>
     <script src="Fundamentos/switch.js"></script>
     <script src="Fundamentos/lacorepeticaoFor.js"></script>
+    <script src="Fundamentos/EventosTempo.js"></script>
 </body>
 
 </html>
