@@ -11,3 +11,4 @@ FUNDAMENTOS:
 * `switch.js`: apredendo a usar o switch no js.
 * `lacorepetiçaoFor.js`: apredendo o laço de repetição for.
 *  `EventosTempo.js`: apredendo a usar o setTimeout e o cleaTimeout assim como o setInterval e o clearInterval.
+* `classes.js`: usando class, é tipo uma fabrica para criar objetos.
